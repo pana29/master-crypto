@@ -1,0 +1,119 @@
+.navbar {
+  width: 100%;
+  height: 4.5rem;
+  z-index: 10;
+  position: relative;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.093);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo h1 {
+  font-size: 1.5rem;
+  color: var(--black);
+  letter-spacing: 0.2rem;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  color: var(--black);
+  margin: 1rem;
+}
+
+.navbar .logo .icon {
+  font-size: 3rem;
+  margin-right: 1rem;
+  color: var(--primary-color);
+}
+
+.hamburger {
+  display: none;
+  padding: 1rem;
+}
+
+.sign {
+  margin-left: 4rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.sign:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.navbar .nav-menu {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+}
+
+.navbar li a {
+  padding: 1rem;
+  font-size: 1rem;
+  color: var(--black);
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.navbar li a:hover {
+  color: var(--hover-color);
+}
+
+.navbar .icon {
+  font-size: 1.4rem;
+  color: var(--black);
+}
+
+@media screen and (max-width: 960px) {
+  .navbar .hamburger {
+    display: block;
+    z-index: 15;
+  }
+  .navbar .nav-menu {
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    transition: 0.5s ease-in;
+  }
+  .navbar .active {
+    left: 0;
+  }
+  .navbar li a {
+    color: #f8f8f8;
+    font-size: 2.5rem;
+  }
+  .navbar li {
+    padding-bottom: 2rem;
+  }
+  .navbar button {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar .logo .icon {
+    font-size: 2rem;
+    margin-right: 0.2rem;
+  }
+
+  .navbar .logo h1 {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  }
+}

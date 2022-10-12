@@ -1,0 +1,36 @@
+.news-top {
+    width: 100%;
+    margin: auto;
+}
+
+.news-top .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    margin: auto;
+}
+
+.news-top .content h1 {
+    line-height: 48px;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.news-top .content p {
+    padding-top: 1rem;
+    font-size: 16px;
+    color: var(--gray);
+    padding-right: 5rem;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width:767px) {
+    .news-top .content p {
+        padding-right: 0px;
+    }
+}

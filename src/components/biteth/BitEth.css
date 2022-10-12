@@ -1,0 +1,257 @@
+.bit-eth {
+  display: flex;
+  width: 100%;
+}
+
+.bit-eth-container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.bit-eth-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.bit-eth-h2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--black);
+}
+
+.bit-eth-h2 span {
+  padding-left: 50px;
+}
+
+.bit-eth-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin-top: 30px;
+  transition: 0.2s;
+  max-width: 1240px;
+}
+
+.icon-2-nft {
+  color: var(--hover-color);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.bit-eth-cards .learn-more-card {
+  display: none;
+  transition: 0.2s;
+}
+
+.margin-1 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  border-radius: 24px;
+  border: 1 px solid #d3d3d3;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  background-color: #FAFAFA;
+  transition: 0.2s;
+}
+
+.margin-2 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  border-radius: 24px;
+  border: 1 px solid #d3d3d3;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  background-color: #FAFAFA;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.margin-3 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+  border-radius: 24px;
+  border: 1 px solid #d3d3d3;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  background-color: #FAFAFA;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.trust-p-bit {
+  font-size: 16px;
+}
+.info-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bitc-img2,
+.bitc-img1 {
+  width: 100%;
+  height: 270px;
+  border-radius: 24px 24px 15px 15px;
+  padding-top: 1rem;
+}
+
+
+
+.eth-img {
+  width: 100%;
+  height: 270px;
+  border-radius: 15px 15px 24px 24px;
+  padding-bottom: 1rem;
+}
+
+.card-p-bit {
+  font-size: 14px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.learn-more-card {
+  padding-top: 0.5rem;
+  color: var(--hover-color);
+}
+
+
+.trust-h2-1 {
+  color: var(--gray);
+}
+
+.margin-1:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+  rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.margin-3:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+  rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.margin-2:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+  rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.margin-1:hover .learn-more-card {
+  display: block;
+}
+.margin-2:hover .learn-more-card {
+  display: block;
+}
+.margin-3:hover .learn-more-card {
+  display: block;
+}
+
+@media screen and (max-width:960px) {
+
+  .bit-eth-container {
+    padding: 1rem;
+    width: auto;
+    margin-top: 20px;
+  }
+ 
+  .bit-eth-content {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .bit-eth-h2 {
+    text-align: start;
+    font-size: 1.9rem;
+    margin-bottom: 5px;
+  }
+
+
+  .bitc-img1,
+  .bitc-img2 {
+    height: 200px;
+  }
+
+  .eth-img {
+    height: 200px; 
+  }
+
+  .margin-1,
+  .margin-2,
+  .margin-3 {
+    height: auto;
+    text-align: start;
+  }
+
+  .bit-eth-cards .learn-more-card {
+    display: block;
+    padding-left: 1rem;
+  }
+
+  .info-text {
+    padding-top: 0px;
+  }
+
+  .trust-h2-1 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    text-align: start;
+  }
+
+  .learn-more-card {
+    font-size: 12px;
+    
+  }
+
+}
+
+@media screen and (max-width:480px) {
+  .bit-eth-cards {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .bitc-img1,
+  .bitc-img2 {
+    height: 120px;
+  }
+
+  .margin-2{
+    margin-right: 0px;
+  }
+
+  .margin-1 {
+    margin-right: 0px;
+  }
+
+  .eth-img {
+    height: 120px; 
+  }
+
+  .bit-eth-h2 {
+    font-size: 1.3rem;
+  }
+}

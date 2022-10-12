@@ -1,0 +1,133 @@
+.prim-page{
+    max-width: 1240px;
+    margin: auto;
+}
+
+.coin-page {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    width: 100%;
+}
+
+ .high-new-top{
+    padding-left: 20px;
+    
+}
+
+.coin-page .prim-div {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 20px;
+   
+}
+
+.coin-page .prim-div img {
+    width: 5rem;
+    margin-right: 2rem;
+}
+
+.coin-page .p-name-price, .p-grid  {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.coin-page .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    padding: 20px;
+   
+}
+
+.coin-page .grid-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.coin-page .mrk-cap, .high-24h, .prc-chg {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.coin-page .p-mkt, .volume, .anth-p  {
+    color: rgb(107 114 128);
+    font-size: 0.875rem;
+}
+
+
+
+.coin-page .p-high, .p-low {
+    color: rgb(107 114 128);
+    font-size: 0.875rem;
+}
+
+.coin-page .p-mkt-sts {
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.coin-page .first-d-mkt-sts {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.coin-page .icon-all {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    color: var(--primary-color );
+}
+
+
+.coin-page .description {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 20px;
+    margin:auto;
+    max-width: 1240px;
+    padding-right: 20px;
+}
+
+.coin-page .description-p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.loader {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (max-width:960px) {
+    .prim-page{
+        width: auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .coin-page .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .high-new-top{
+        padding-left: 0px;
+    }
+}

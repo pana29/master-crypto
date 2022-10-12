@@ -1,0 +1,310 @@
+.markets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+}
+.coin-search {
+  display: flex;
+  justify-content: flex-start;
+  width: 1240px !important;
+  width: 100%;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.coin-name {
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.coin-input {
+  padding-left: 11px;
+  margin-left: 55rem;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  font-size: 14px;
+}
+
+.src-tbl {
+  width: 1240px;
+  padding-left: 20px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.tbl-tbl {
+  width: 100%;
+}
+
+.tbl-mark {
+  display: flex;
+  padding-left: 20px;
+  margin: auto;
+}
+
+.td1 {
+  padding-left: 30px;
+  width: 150px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.td2 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 100px;
+  text-align: center;
+}
+
+.td3 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 200px;
+  text-align: center;
+}
+
+.td4 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 200px;
+  text-align: center;
+}
+
+.td5 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 200px;
+  text-align: center;
+  padding-right: 40px;
+}
+
+.td6 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 200px;
+  text-align: center;
+}
+
+.td7 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 200px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
+
+.pagination .pagination-btn {
+  padding: 10px 10px 10px 10px;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.current-number {
+  font-size: 25px;
+  color: var(--gray);
+  font-weight: 600;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn {
+  padding: 15px 15px 15px 15px;
+  margin-left: -3.5rem;
+  color: var(--primary-color);
+}
+
+.search-suggestions-list {
+  position: absolute;
+  top: 3.3rem;
+  right: 7rem;
+  height: 20rem;
+  background: white;
+  z-index: 9999;
+  overflow: auto;
+  white-space: break-spaces;
+  border: 1px solid var(--primary-color);
+  width: 12.5rem;
+  border-radius: 4px;
+}
+
+.search-suggestions-list > p {
+  margin-left: 0.5rem;
+}
+
+.search-suggestions-list > p:hover {
+  background-color: var(--primary-color);
+  padding-left: 0.4rem;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  margin: 0;
+}
+
+.search-form {
+  position: relative;
+}
+
+@media screen and (max-width: 960px) {
+  .coin-name {
+    padding-left: 20px;
+    font-size: 1.3rem;
+  }
+
+  .coin-search {
+    width: auto !important;
+  }
+
+  .search-form {
+    justify-content: flex-end;
+    margin-left: 26rem;
+  }
+
+  .coin-input {
+    margin-left: 20px;
+  }
+
+  .ant-d,
+  .ant-d p {
+    font-size: 14px;
+  }
+
+  .src-tbl {
+    width: 820px;
+    padding-left: 0px;
+  }
+
+  .tbl-mark {
+    padding-left: 0px;
+  }
+  .td1{
+    padding-left:80px;
+    font-size: 14px;
+  }
+
+  .td2{
+    text-align: start;
+    font-size: 14px;
+    width: auto;
+  }
+
+  .td3{
+    width: 100px;
+    font-size: 14px;
+  }
+  .td4{
+    font-size: 14px;
+    width: 150px;
+  }
+  .td5{
+    font-size: 14px;
+    width: 100px;
+    text-align: end;
+    padding-right: 20px;
+  }
+
+  .td6{
+    font-size: 14px;
+    width: 150px;
+  }
+  .td7{
+    width: auto;
+    font-size: 14px;
+  }
+ 
+}
+
+@media screen and (max-width: 767px){
+
+  .coin-search {
+    padding: 0;
+  }
+  .coin-input{
+    width: 180px;
+    height: 30px;
+  }
+  .search-suggestions-list{
+    right: 0;
+    left: 1.3rem;
+    width: 11.02rem;
+    height: 15rem;
+    right: 1rem;
+    top: 2.6rem;
+  }
+
+  .search-btn>svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .search-suggestions-list>p{
+    font-size: 14px;
+  }
+  .search-form {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .src-tbl{
+    padding-bottom: 0px;
+  }
+
+  .td1{
+    padding-left: 10px;
+    width: auto;
+  }
+
+  .td2{
+    width: auto;
+    padding-left: 5px;
+  }
+
+  .td3{
+    text-align: end;
+  }
+
+  .td4{
+    display: none;
+  }
+
+  .td5{
+    text-align: center;
+    width: 50px;
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+  .td6{
+    display: none;
+  }
+
+  .td7{
+    padding-right: 0px;
+    width: auto;
+    padding-left: 30px;
+  }
+
+  .tbl-mark {
+    width: auto;
+    display: none;
+  }
+  
+
+}
