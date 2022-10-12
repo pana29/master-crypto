@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/master-crypto/static/css/main.3b736dfb.css",
+    "main.js": "/master-crypto/static/js/main.d227bb27.js",
+    "static/media/123.jpg": "/master-crypto/static/media/123.586bb769bca37032e82a.jpg",
+    "static/media/eth.png": "/master-crypto/static/media/eth.3a9c9a054911576624fb.png",
+    "static/media/bit.png": "/master-crypto/static/media/bit.2e446bbafb67427e7aa5.png",
+    "static/media/tinywow_punk3_5513129.png": "/master-crypto/static/media/tinywow_punk3_5513129.c4af745c0c80c7242694.png",
+    "static/media/tinywow_punk1_5513163.png": "/master-crypto/static/media/tinywow_punk1_5513163.2e9128947d9054c11bda.png",
+    "static/media/nft.png": "/master-crypto/static/media/nft.6d469ec5fc24b678ee9b.png",
+    "static/media/tinywow_punk2_5513152.png": "/master-crypto/static/media/tinywow_punk2_5513152.6075fc6723d518551078.png",
+    "static/media/wallet.jpg": "/master-crypto/static/media/wallet.589752dd6fddf57f565e.jpg",
+    "index.html": "/master-crypto/index.html",
+    "main.3b736dfb.css.map": "/master-crypto/static/css/main.3b736dfb.css.map",
+    "main.d227bb27.js.map": "/master-crypto/static/js/main.d227bb27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b736dfb.css",
+    "static/js/main.d227bb27.js"
+  ]
+}
