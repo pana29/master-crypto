@@ -265,6 +265,7 @@
   }
   .src-tbl{
     padding-bottom: 0px;
+    display: none;
   }
 
   .td1{
@@ -301,9 +302,7 @@
     padding-left: 30px;
   }
 
-  .tbl-mark {
-    display: none;
-  }
+
   
 
 }
