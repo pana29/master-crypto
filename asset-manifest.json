@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/master-crypto/static/css/main.3adb6777.css",
-    "main.js": "/master-crypto/static/js/main.3c6383ef.js",
+    "main.js": "/master-crypto/static/js/main.a7661dad.js",
     "static/media/123.jpg": "/master-crypto/static/media/123.586bb769bca37032e82a.jpg",
     "static/media/eth.png": "/master-crypto/static/media/eth.3a9c9a054911576624fb.png",
     "static/media/bit.png": "/master-crypto/static/media/bit.2e446bbafb67427e7aa5.png",
@@ -12,10 +12,10 @@
     "static/media/wallet.jpg": "/master-crypto/static/media/wallet.589752dd6fddf57f565e.jpg",
     "index.html": "/master-crypto/index.html",
     "main.3adb6777.css.map": "/master-crypto/static/css/main.3adb6777.css.map",
-    "main.3c6383ef.js.map": "/master-crypto/static/js/main.3c6383ef.js.map"
+    "main.a7661dad.js.map": "/master-crypto/static/js/main.a7661dad.js.map"
   },
   "entrypoints": [
     "static/css/main.3adb6777.css",
-    "static/js/main.3c6383ef.js"
+    "static/js/main.a7661dad.js"
   ]
 }
