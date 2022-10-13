@@ -35,6 +35,7 @@ const Nft = () => {
         console.log(error);
         setLoading(false)
       });
+      window.scrollTo(0, 0);
   }, []);
 
   return (

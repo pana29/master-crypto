@@ -41,6 +41,7 @@ const Markets = () => {
     }
     setLoading(true);
     fetchMarketsCoins();
+    window.scrollTo(0, 0);
   }, [currentPage]);
 
   const handleCoinSearch = (e) => {
