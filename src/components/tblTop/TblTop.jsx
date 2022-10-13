@@ -39,7 +39,7 @@ const TblTop = ({onCoinsReceived}) => {
                 {
                     loading ? <div className="loader"><ClipLoader color={"#0552FF"} loading={loading} size={100} /></div>
                     :
-                    <div className="high-new-top">
+                    <div className="high-new-top-top">
                     <div className='markets-h'>
                         <p>Markets</p>
                     </div>

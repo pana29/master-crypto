@@ -83,12 +83,16 @@
   padding-left: 40px;
 }
 
+.first-coin-tbl {
+  width: 100px;
+}
+
 .price-coin-tbl {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  
+  width: 100px;
 }
 
 .top-coin-in-tbl:hover{
