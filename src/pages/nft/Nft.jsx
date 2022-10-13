@@ -56,9 +56,9 @@ const Nft = () => {
               <img className='img-card' src={nft?.image_original_url} alt="/" />
             </p>
             <div className='ttl'>
-              <h5 className='crt-title'>{nft?.collection.name}</h5>
+              <h5 className='crt-title'>{nft?.name}</h5>
             </div>
-            <h6 className='token-id'>{nft?.token_id}</h6>
+            <h6 className='token-id'>{nft?.traits[0]?.value}</h6>
             <p className='traits'>{nft?.traits[2]?.value}</p>
             <div className='crt-btn'>
               <a href={nft.external_link} className='a-btn' target="_blank" >Read</a>

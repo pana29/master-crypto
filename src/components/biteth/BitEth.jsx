@@ -85,7 +85,7 @@ const BitEth = () => {
             <div className="bit-eth-card3" onClick={() => handleRedirectPage()}>
               <img className="bitc-img2" src={nft} alt="/" />
               <div className="info-text">
-                <h2 className="trust-h2-1">NFT</h2>
+                <h2 className="trust-h2-1">NFT's</h2>
                 <p className="card-p-bit">
                   Subscribe to NFT Calendar and stay tuned to the biggest
                   announcements.
