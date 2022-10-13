@@ -96,7 +96,7 @@
   }
   .navbar li a {
     color: #f8f8f8;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .navbar li {
     padding-bottom: 2rem;
@@ -108,7 +108,7 @@
 
 @media screen and (max-width: 767px) {
   .navbar .logo .icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-right: 0.2rem;
   }
 
