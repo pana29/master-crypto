@@ -42,8 +42,6 @@ const Navbar = () => {
           {/* <li className='sign'>Log In</li>
             <button>Register</button> */}
         </ul>
-
-      
       </div>
     </div>
   );
